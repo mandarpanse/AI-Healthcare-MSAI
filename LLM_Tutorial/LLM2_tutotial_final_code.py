@@ -6,6 +6,14 @@ import openai
 from textstat import flesch_kincaid_grade, smog_index
 import pandas as pd
 
+############         INSTRUCTIONS         ################
+#Run pip install for following packages as shown below 
+#    pip install datasets openai textstat pandas streamline
+#Update openai.api_key field in the code with appropriate value.
+#To execute this application run the command given below on command prompt 
+#    streamlit run <python code file name> 
+############         INSTRUCTIONS         ################
+
 # Load the Med-EASi dataset
 @st.cache_data
 def load_data():
@@ -33,7 +41,7 @@ def get_cot_prompt(text):
 
 # OpenAI API Call
 def ask_openai(prompt):
-    openai.api_key = "Update it appropriate value"
+    openai.api_key = "Update it WITH appropriate value"
     response = openai.ChatCompletion.create(
         model="gpt-4",
         messages=[{"role": "user", "content": prompt}],
