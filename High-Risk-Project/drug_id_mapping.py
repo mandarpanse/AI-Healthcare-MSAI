@@ -1,0 +1,21 @@
+drug_name_to_id = {
+    'Aspirin': 'Compound::DB00945',
+    'Warfarin': 'Compound::DB00682',
+    'Lisinopril': 'Compound::DB00722',
+    'Ibuprofen': 'Compound::DB01050',
+    'Simvastatin': 'Compound::DB00641',
+    'Clarithromycin': 'Compound::DB01211',
+    'Metformin': 'Compound::DB00331',
+    'Cimetidine': 'Compound::DB00501',
+    'Diazepam': 'Compound::DB00829',
+    'Fluoxetine': 'Compound::DB00472',
+    'Digoxin': 'Compound::DB00390',
+    'Verapamil': 'Compound::DB00661',
+    'Levothyroxine': 'Compound::DB00451',
+    'Calcium Carbonate': 'Compound::DB11093',
+    'Tramadol': 'Compound::DB00193',
+    'Sertraline': 'Compound::DB01104',
+    'Amiodarone': 'Compound::DB01118',
+    'Nitroglycerin': 'Compound::DB00727',
+    'Sildenafil': 'Compound::DB00203'
+}
